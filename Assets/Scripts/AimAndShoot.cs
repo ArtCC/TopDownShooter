@@ -19,7 +19,7 @@ public class AimAndShoot : MonoBehaviour {
         }
 
         transform.position = playerTransform.position;
-
+        
         Aim();
         Shoot();
     }
